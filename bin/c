@@ -1,0 +1,6 @@
+clear
+cd ..
+export CLASSPATH="../sudoku-server/src/main/webapp/WEB-INF/classes:$CLASSPATH"
+./gradlew clean
+./gradlew build
+./gradlew javadoc
